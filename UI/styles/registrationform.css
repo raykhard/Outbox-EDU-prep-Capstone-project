@@ -1,0 +1,42 @@
+body{
+    background-image: linear-gradient(rgba(0,0,0.5),rgba(0,0,0,0.5)), url(/UI/static/Images/peter-lewicki-Wfh650C1OHU-unsplash.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+.registration-page{
+    position: relative;
+    bottom: 10%;
+    width: 350px;
+    padding: 10% 0 0;
+    margin: auto;
+}
+form{
+    position:relative;
+    background:rgba(238, 229, 229, 0.5);
+    max-width: 350px;
+    margin: 0 auto 100px;
+    padding: 45px;
+    text-align: center;
+}
+form input{
+    background: rgb(247, 242, 242);
+    width: 100%;
+    border: 0;
+    margin: 0 0 15px;
+    padding:20px;
+    box-sizing: border-box;
+    font-size: 15px;
+}
+form button{
+    background:#9C3B3B;
+    outline: 0;
+    width:50%;
+    padding: 10px;
+    font-size: 15px;
+    border: 0;
+    cursor: pointer;
+}
+form button:hover{
+    background: rgb(116, 37, 37);
+}
