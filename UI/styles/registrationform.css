@@ -28,7 +28,7 @@ form input{
     box-sizing: border-box;
     font-size: 15px;
 }
-form button{
+.button{
     background:#9C3B3B;
     outline: 0;
     width:50%;
@@ -37,6 +37,18 @@ form button{
     border: 0;
     cursor: pointer;
 }
-form button:hover{
+.button:hover{
     background: rgb(116, 37, 37);
 }
+.Validate {                                         
+    margin-left: 70px; 
+    font-weight: bold ; 
+    float: left; 
+    clear: left; 
+    width: 100px; 
+    text-align: left; 
+    margin-right: 10px; 
+    font-family:sans-serif,bold, Arial, Helvetica; 
+    font-size:14px; 
+} 
+   
