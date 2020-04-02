@@ -27,10 +27,18 @@ a{
 }
 h1{
   color: #fff;
-  position: relative;
+  position: absolute;
+  top: 2px;
+  left: -110px;
+  font-size: 50px;
   transform: translate();
-
 }
+
+p{
+  text-align: center;
+  
+}
+
 button{
     background:#9C3B3B;
     color: #fff;
