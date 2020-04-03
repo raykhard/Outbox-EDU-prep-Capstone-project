@@ -43,13 +43,12 @@
 
    <!--comment section-->
    <div class="comment">
+     <div id="done-comments"></div>
   <h5>Comment here</h5>
   <form>
-    Name:<input type="text" id="name"> <br>
-    Date: <input type="text" id="date"> <br>
-    Body: <textarea placeholder="tap to comment" id="body"></textarea>
+  <textarea placeholder="tap to comment" id="commentBox"></textarea>
     <div class="btn">
-      <input type="submit" value="Comment" onclick="comment">
+      <input type="submit" value="Comment" onclick="taptocomment(event)">
       <button>Cancel</buttton>
     </div>
         </form>
