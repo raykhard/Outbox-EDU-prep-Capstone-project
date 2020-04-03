@@ -27,12 +27,18 @@ a{
 }
 h1{
   color: #fff;
+
   position: relative;
   font-size: 40px;
   transform: translate();
   font-family: "Times New Roman", Times, serif;
 
+
+p{
+  text-align: center;
+  
 }
+
 p{
   width: 20%;
   font-size: 25px;
@@ -41,6 +47,7 @@ p{
   top: 25%;
   left: 37%;
 }
+
 
 button{
     background:#9C3B3B;

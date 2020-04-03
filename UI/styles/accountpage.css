@@ -4,18 +4,20 @@ body {
      height: 100vh;
      background-position: center;
      margin: 20px;
+     @media only scream and (max-width: 500px);
 }
+
 a{
     text-decoration: none;
     color: #ffffff;
 }
 button {
-    border-radius: 20px;
-    color: #ffffff;
-    background-color: #000;
+    color: #000;
+    background-color: #9C3B3B;
+
     cursor: pointer;
-    margin: 15px;
-    height: 30px;
+    border: #9C3B3B;
+    margin: 5px;
     
 }
 .account-details {
@@ -23,11 +25,16 @@ button {
     padding-left: 10px;
     padding-top: 40px;
 }
-.comments {
-    padding-bottom: 30px;
+.comment {
     padding-left: 40px;
-    margin: 10px;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 25px;
+    
 }
+
+
+
 .video-details {
     display: inline-block;
     padding-left: 400px;
@@ -45,6 +52,7 @@ button {
 .series:hover{
     transform: translateY(-10px);
 }
+
 .access-point{
     position :fixed;
     top: 0;
@@ -89,6 +97,22 @@ nav{
     background:#EEE5E5;
     color: #000;
 }
+  .container {
+    display: flex;
+}
+textarea {
+    height: 40px;
+    width: 20%;
+}
+ input[type="submit"],button {
+    cursor: pointer;
+    border: none;
+
+    }
+    input[type="submit"] {
+        background-color: #9C3B3B;
+    }
+
 
 
 
