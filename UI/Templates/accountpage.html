@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
    <link rel="stylesheet" href="/UI/styles/accountpage.css">
+   <script src="/UI/script/accountpage.js"></script>
    
     <title>EDU-VIDEO LIBRARY / account page</title>
 </head>
@@ -44,9 +45,11 @@
    <div class="comment">
   <h5>Comment here</h5>
   <form>
-    <textarea placeholder="tap to comment"></textarea>
+    Name:<input type="text" id="name"> <br>
+    Date: <input type="text" id="date"> <br>
+    Body: <textarea placeholder="tap to comment" id="body"></textarea>
     <div class="btn">
-      <input type="submit" value="Comment">
+      <input type="submit" value="Comment" onclick="comment">
       <button>Cancel</buttton>
     </div>
         </form>
