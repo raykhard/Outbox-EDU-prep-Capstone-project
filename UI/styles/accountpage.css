@@ -6,15 +6,10 @@ body {
      margin: 20px;
      @media only scream and (max-width: 500px);
 }
-
-a{
-    text-decoration: none;
-    color: #ffffff;
-}
+     
 button {
     color: #000;
     background-color: #9C3B3B;
-
     cursor: pointer;
     border: #9C3B3B;
     margin: 5px;
@@ -52,52 +47,7 @@ button {
 .series:hover{
     transform: translateY(-10px);
 }
-
-.access-point{
-    position :fixed;
-    top: 0;
-    left: 0;
-    height:100%;
-    width: 200px;
-    background: rgb(19, 18, 18);
-    border-right: 2px solid rgb(26, 22, 22);
-    box-shadow: 0 0 10px 5px rgba(184, 51, 51, 0.815);
-    display: flex;
-    flex-direction: column;
-    opacity: 0;
-    transition: left 0.25s ease-in-out, opacity 0.25s ease-in-out;
-}
-.access-point--open{
-    left: 0 ;
-    opacity: 1;
-}
-nav{
-    position: relative;
-    display: flex;
-    float: right;
-
-}
-.links{
-    display: flex;
-    flex-direction: column;
-    justify-content: stretch;
-    background:  rgb(19, 18, 18);
-    color:#EEE5E5;
-    padding: 12px;
-    text-decoration: none;
-    font-weight: bold;
-    font-size: 1.2rem;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    border-bottom: 1px solid  rgb(201, 184, 184);
-}
-.links span{
-    margin-right:12px;
-}
-.links:hover{
-    background:#EEE5E5;
-    color: #000;
-}
-  .container {
+.container {
     display: flex;
 }
 textarea {
