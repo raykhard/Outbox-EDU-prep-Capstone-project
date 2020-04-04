@@ -6,7 +6,10 @@ body {
      margin: 20px;
      @media only scream and (max-width: 500px);
 }
-     
+a{
+    text-decoration: none;
+    color: black;
+}
 button {
     color: #000;
     background-color: #9C3B3B;
