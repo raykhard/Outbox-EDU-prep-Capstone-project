@@ -5,17 +5,35 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>EDU VIDEO LIBRARY/sign up</title>
     <link rel="stylesheet" href="/UI/styles/registrationform.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css" integrity="sha384-Bfad6CLCknfcloXFOyFnlgtENryhrpZCe29RTifKEixXQZ38WheV+i/6YWSzkz3V" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/975f9df41c.js" crossorigin="anonymous"></script>
+    <script src="/UI/script/index.js"></script>
+    <script>
+        function toggleNav(){
+            document.querySelector(".access-point").classList.toggle("access-point--open");
+        }
+    </script>
 </head>
 <body>
+    <button onclick="toggleNav()" style="float: right;position: relative;top: 10%;right: 10%; background: #9C3B3B;border: 0;width: 8%;height: 30px; font-size: 1.3rem; border-radius: 5px;">Menu</button>
+        <div class="access-point">
+            <a href="/UI/Templates/index.html" class="links">
+                <span class="fas fa-home">Home</span>
+            </a>
+            <a href="" class="links">
+                <span class="fas fa-comments">Comments</span>
+            </a>
+        </div>
     <div class="registration-page">
         <div>
-            <form>
-                <input type="text" placeholder="user name">
-                <input type="email" placeholder="email">
-                <input type="password" placeholder="password">
-                <input type="password" placeholder="confirm password">
-                <button><a href="/UI/Templates/accountpage.html">Sign Up</a></button>
-            </form>
+            <form action="accountpage.html">
+                <input type="text" placeholder="user name" id="username" />
+                <input type="email" placeholder="email" id="email" />
+                <input type="password" placeholder="password" id="password" />
+                <input type="password" placeholder="confirm password" />
+                <button onclick="Validate(event)">Sign Up</button>
+                <!-- <button><a href="/UI/Templates/accountpage.html">Sign Up</a></button> -->
+              </form>
         </div>
     </div>
 </body>

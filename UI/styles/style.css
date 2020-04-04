@@ -22,22 +22,26 @@ a{
   padding: 0;
   
   display: flex;
-  top: 50%;
-  left: 39%;
+  top: 25%;
+  left: 37%;
 }
 h1{
   color: #fff;
-  position: absolute;
-  top: 2px;
-  left: -110px;
-  font-size: 50px;
+
+  position: relative;
+  font-size: 40px;
   transform: translate();
+  font-family: "Times New Roman", Times, serif;
+}
+p{
+  width: 20%;
+  font-size: 25px;
+  padding: 0;
+  position: absolute;
+  top: 25%;
+  left: 37%;
 }
 
-p{
-  text-align: center;
-  
-}
 
 button{
     background:#9C3B3B;
@@ -50,6 +54,7 @@ button{
     font-size: 15px;
     border: 0;
     cursor: pointer;
+    border-radius: 4px;
 }
 button:hover{
   opacity: 0.8;

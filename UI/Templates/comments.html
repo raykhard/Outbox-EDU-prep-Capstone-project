@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/UI/styles/accountpage.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css" integrity="sha384-Bfad6CLCknfcloXFOyFnlgtENryhrpZCe29RTifKEixXQZ38WheV+i/6YWSzkz3V" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/975f9df41c.js" crossorigin="anonymous"></script>
+    <title>Document</title>
+    <script src="/UI/script/cart&comment.js"></script>
+</head>
+<body>
+    <button onclick="toggleNav()" style="float: right; background: #9C3B3B;border: 0;width:5%;height: 30px;position: relative;top: 10%;right: 10%; font-size: 1.3rem; border-radius: 5px;">Menu</button>
+    <div class="access-point">
+        <a href="" class="links">
+            <span class="fas fa-user">Profile</span>
+        </a>
+        <a href="#" class="links">
+          <span class="fas fa-home">Home</span>
+        </a>
+        <a href="/UI/Templates/cart.html" class="links cart">My Cart
+            <span class="fas fa-shopping-cart"></span>
+        </a>
+        <a href="/UI/Templates/comments.html" class="links">
+          <span class="fas fa-comments">Comments</span>
+        </a>
+        <a href="/UI/Templates/index.html" class="links">
+            <span  class="fas fa-sign-out-alt">Log out</span>
+        </a>
+    </div>
+    <h1>EDU VIDEO LIBRARY comments</h1>
+    Your comment(s) for our page
+    ---<span id="comments">
+        
+    </span>
+    <script>
+        document.getElementById("comments").innerHTML=localStorage.getItem("textvalue");
+    </script>
+</body>
+</html>
