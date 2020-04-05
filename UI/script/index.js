@@ -1,4 +1,4 @@
-function Validate()                                    
+gitfunction Validate()                                    
 { 
     var name = document.forms["forms"]["Name"]; 
     console.log (name.value)
