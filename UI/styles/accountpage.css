@@ -1,0 +1,234 @@
+body {
+    /* background-image: linear-gradient(rgba(0,0,0.5),rgba(0,0,0,0.5)), url(/UI/static/Images/netflix.jpg);; */
+    background: rgb(14, 11, 11);
+    color: #ffffff;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    font-family: 'Gotu', sans-serif;
+    margin: 20px;
+    @media only scream and (max-width: 500px);
+}
+
+a{
+    text-decoration: none;
+    color: black;
+
+}
+button {
+    color: #000;
+    background-color: #9C3B3B;
+    cursor: pointer;
+    border: #9C3B3B;
+    margin: 5px;
+}
+.video-info{
+    width: 50%;
+    position: relative;
+    left: 37%;
+}
+
+.access-point{
+    position :fixed;
+    top: 0;
+    left: 0;
+    height:100%;
+    width: 200px;
+    background: rgb(14, 11, 11);
+    border-right: 2px solid rgb(26, 22, 22);
+    box-shadow: 0 0 1px 1px rgba(184, 51, 51, 0.815);
+    display: flex;
+    flex-direction: column;
+    transition: left 0.25s ease-in-out, opacity 0.25s ease-in-out;
+}
+.access-point--open{
+    left: 0 ;
+    opacity: 1;
+}
+nav{
+    position: relative;
+    display: flex;
+    float: right;
+
+}
+.links{
+    display: flex;
+    flex-direction: column;
+    justify-content: stretch;
+    background:  rgb(14, 11, 11);
+    color:#EEE5E5;
+    padding: 12px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.2rem;
+    font-family: 'Gotu', sans-serif;
+    border-bottom: 1px solid  #9C3B3B;
+}
+.links span{
+    margin-right:12px;
+}
+.links:hover{
+    background:#EEE5E5;
+    color: #000;
+}
+
+.container{
+    display:flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 50px;
+    padding-bottom: 100px;
+}
+.image{
+    margin-right: 20px;
+    margin-left: 20px;
+    position: relative;
+    /* overflow: hidden; */
+}
+.info{
+    position: relative;
+    color: #9C3B3B;
+    width: 23%;
+    left: 21%;
+    top: 7%;
+}
+.add-cart{
+    position: absolute;
+    width: 100%;
+    background-color: darkgrey;
+    cursor: pointer;
+    text-align: center;
+}textarea {
+    height: 40px;
+    width: 20%;
+}
+ /* input[type="submit"],button {
+    cursor: pointer;
+    border: none;
+
+    } */
+ .commented {
+        background-color: #9C3B3B;
+        cursor: pointer;
+        border: none;
+    }
+    .comment{
+        position: relative;
+        left: 28%;
+        bottom: 15%;
+    }
+    .container,
+    .products-container{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        margin-top: 50px;
+        padding-bottom: 100px;
+    }
+    .image{
+        margin-right:10px;
+        margin-left: 1px;
+        position: relative;
+        left: 10%;
+        overflow: hidden;
+        border-bottom:2px solid #EEE5E5;
+    }
+    
+    .image1{
+        width: 200px;
+        height: 287px;
+        border-radius: 8px;
+    }
+    .image2{
+        border-radius: 8px;
+    }
+    .add-cart{
+        position: absolute;
+        width: 50%;
+        background-color: #9C3B3B;
+        transition: all 0.3s ease-in-out;
+        opacity: 0;
+        cursor: pointer;
+        text-align: center;
+    }
+    .image:hover .cart1,
+    .image:hover .cart2,
+    .image:hover .cart3,
+    .image:hover .cart4{
+        bottom: 50px;
+        opacity: 1;
+        padding: 10px;
+        text-decoration: none;
+        text-align: center;
+    }
+    /* cart-page */
+    .products-container{
+
+        max-width: 650px;
+        justify-content: space-around;
+        margin: 0 auto;
+        margin-top: 50px;
+        padding-bottom: 100px;
+    }
+    
+     .product-header{
+        width: 100%;
+        max-width: 650px;
+        display: flex;
+        justify-content: flex-start;
+        border-bottom: 1px solid grey;
+        margin: 0 auto;
+    }
+    .product-title{
+        width: 45%;
+    }
+    .price{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        border-right: 1px solid grey;
+    }
+    .quantity{
+        width: 15%;
+        display: flex;
+        align-items: center;
+    }
+    .total{
+        width: 16%;
+        display: flex;
+        align-items: center;
+    }
+    .product{
+        width:45%;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        padding: 10px 0;
+        border-bottom: 1px solid lightgrey;
+    } 
+    .product ion-icon{
+        cursor: pointer;
+    }
+    .products{
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+    
+    }
+    .product img {
+        width: 75px;
+    }
+    .totalContainer{
+        display: flex;
+        justify-content: flex-end;
+        width: 100%;
+        padding:10px 0;
+    }
+    .totalTile{
+        width: 30%;
+    }
+    .finalTotal {
+        width: 10%;
+    }
+
+
