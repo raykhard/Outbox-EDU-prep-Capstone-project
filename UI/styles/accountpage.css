@@ -3,6 +3,7 @@ body {
     color: #ffffff;
      height: 100vh;
      background-position: center;
+     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
      margin: 20px;
      @media only scream and (max-width: 500px);
 }
@@ -133,7 +134,6 @@ nav{
     input[type="submit"] {
         background-color: #9C3B3B;
     }
-
 
 
 
