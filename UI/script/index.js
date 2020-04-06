@@ -18,6 +18,6 @@ function Validate(event) {
     return false;
   } else {
     window.alert("You have succesfully logged in :-) ");
-    window.location.href = "/UI/Templates/accountpage.html";
+    window.location.href = "accountpage.html";
   }
 }
