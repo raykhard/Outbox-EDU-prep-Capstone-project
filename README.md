@@ -1,4 +1,4 @@
-# EDU VIDEO LIBRARY
+# EDU-UNIVERSAL
 
 A platform where Outbox Edu students can select different movies to watch. 
 
